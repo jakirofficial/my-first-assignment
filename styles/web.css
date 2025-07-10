@@ -1,0 +1,51 @@
+/* downloaded font */
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared type */
+
+.upper-banner-button{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border-style: none;
+}
+/* Banner  */
+header{
+    background-image: url('../materials/Hero-bg.png');
+    max-width: 1440px;
+    max-height: 698px;
+    padding-bottom: 200px;
+}
+.upper-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+}
+.upper-banner{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.main-banner{
+    max-width: 905px;
+    height: fit-content;
+    justify-items: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 37px;
+}
