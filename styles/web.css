@@ -90,12 +90,13 @@ header{
 .productive-user{
     max-width: 1140px;
     max-height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
     margin: 0px auto;
     margin-bottom: 137px;
     justify-content: center;
     border-radius: 24px;
     padding: 50px 80px;
-     background-color: rgba(78, 71, 255, 0.1);
+
 }
 .product-main-container{
     max-width: 856px;
@@ -175,6 +176,38 @@ header{
     color: #B3B3B3;
     margin: 0px;
    
+}
+
+/* optional-part */
+.optional{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-bottom: 120px;
+    padding: 71px 150px;
+
+}
+.optional-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.optional-description{
+    color: rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px;
+    text-align: center;
+}
+.o-button{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.optional-part-img{
+     width: 840px;
+     max-width: 100%; 
+    height: auto;
+    border-radius: 48px;
+    display: block;
+    margin: 0px auto;   
 }
 /* Newsletter */
 .newsletter{
