@@ -174,3 +174,34 @@ header{
     margin: 0px;
    
 }
+/* Newsletter */
+
+
+/* footer */
+footer{
+    max-width: 531px;
+    height: fit-content;
+    margin: 0px auto;
+}
+.footer-logo{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.footer-description{
+    color: #8987A1;
+    text-align: center;
+}
+.footer-service{
+    display: flex;
+    max-width: 401px;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+.footer-service p a{
+    text-decoration: none;
+    color: #8987A1;
+}
