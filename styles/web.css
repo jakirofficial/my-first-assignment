@@ -2,7 +2,7 @@
 .open-sans-raleway {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  /* font-weight: <weight>; */
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -87,3 +87,41 @@ header{
     border-radius: 48px;
 }
 /* productive user section */
+.productive-user{
+    max-width: 1140px;
+    max-height: 306px;
+    margin: 0px auto;
+    margin-bottom: 137px;
+    justify-content: center;
+    border-radius: 24px;
+    padding: 50px 80px;
+     background-color: rgba(78, 71, 255, 0.1);
+}
+.product-main-container{
+    max-width: 856px;
+    margin: 0px auto;
+    
+}
+.product-container-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    justify-content: space-around;
+}
+.p-content-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0px;
+}
+.p-content-description{
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+    margin: 0px;
+}
