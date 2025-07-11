@@ -17,6 +17,10 @@
     padding: 12px 36px;
     border-radius: 10px;
     border-style: none;
+    cursor: pointer;
+}
+.upper-banner-button:hover{
+    background-color: chocolate;
 }
 /* Banner  */
 header{
@@ -49,3 +53,37 @@ header{
     text-align: center;
     margin-bottom: 37px;
 }
+/* main */
+/* action section */
+.action{
+    display: flex;
+    max-width: 1140px;
+    max-height: fit-content;
+    justify-content: space-between;
+    margin: 116px auto;
+}
+.action-text{
+    width: 517px;
+    height: 203px;
+    align-items: center;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.action-description{
+    max-width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+   
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* productive user section */
